@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyFirstSpringbootApplication" />
+        <module name="spring-boot-07-run" />
+        <module name="springboot-04-task" />
+        <module name="spring-boot-06-data-jpa" />
+        <module name="provider-ticket (1) (com.acui)" />
+        <module name="consumer-user" />
+        <module name="springboot-03-elasticsearch" />
+        <module name="spring-boot-06-data-mybatis" />
+        <module name="springboot-08-actuator" />
+        <module name="springboot-07-deploy" />
+        <module name="eureka-server" />
+        <module name="provider-ticket" />
+        <module name="springboot-01-cache" />
+        <module name="consumer-user (1) (com.acui)" />
+        <module name="spring-boot-06-data-jdbc" />
+        <module name="springboot-02-amqp" />
+        <module name="springboot-05-security" />
+        <module name="spring-boot-04-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-user" target="1.8" />
+      <module name="consumer-user (1) (com.acui)" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="MyFirstSpringbootApplication" target="1.8" />
+      <module name="provider-ticket" target="1.8" />
+      <module name="provider-ticket (1) (com.acui)" target="1.8" />
+      <module name="spring-boot-04-web" target="1.8" />
+      <module name="spring-boot-06-data-jdbc" target="1.8" />
+      <module name="spring-boot-06-data-jpa" target="1.8" />
+      <module name="spring-boot-06-data-mybatis" target="1.8" />
+      <module name="spring-boot-07-run" target="1.8" />
+      <module name="springboot-01-cache" target="1.8" />
+      <module name="springboot-02-amqp" target="1.8" />
+      <module name="springboot-03-elasticsearch" target="1.8" />
+      <module name="springboot-04-task" target="1.8" />
+      <module name="springboot-05-security" target="1.8" />
+      <module name="springboot-07-deploy" target="1.8" />
+      <module name="springboot-08-actuator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyFirstSpringbootApplication" options="-parameters" />
+      <module name="spring-boot-04-web" options="-parameters" />
+      <module name="spring-boot-06-data-jdbc" options="-parameters" />
+      <module name="spring-boot-06-data-jpa" options="-parameters" />
+      <module name="spring-boot-06-data-mybatis" options="-parameters" />
+      <module name="spring-boot-07-run" options="-parameters" />
+      <module name="springboot-01-cache" options="-parameters" />
+    </option>
+  </component>
+</project>

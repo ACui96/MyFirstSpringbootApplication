@@ -1,0 +1,7 @@
+enviroments:
+  dev:
+    url: http://localhost:8080
+    name: Deceloper Setup
+  prod:
+    url: http://localhost:8081
+    name: my cool app
